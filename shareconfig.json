@@ -1,0 +1,24 @@
+{
+	"documents": {
+			"topsecret_truck.jpg": {
+				"description": "This is a top secret truck that drives very poorly",
+				"abcdefg": {
+					"description": "Test User 1",
+					"expires": "-1",
+					"triggers": null
+				}
+			},
+			"RoughDraft_BookReport.docx": {
+				"description": "This is a bad example of a book report",
+				"100000": {
+					"description": "Test User 2",
+					"expires": "-1",
+					"triggers": null
+				}
+			}
+	},
+	"schema": 1,
+	"version": 1,
+	"lastmodifiedby": "truedat101",
+	"count": 2
+}
