@@ -17,7 +17,7 @@
         "url": "git://github.com/truedat101/nodesimpleshare.git"
     },
     "dependencies": {
-      "js.js": "0.1.18"
+      "js.js": "0.1.19"
     },
     "devDependencies": {
     "chai": ">=1.0.1",

@@ -3,66 +3,55 @@
   "version": "0.2.3",
   "dependencies": {
     "js.js": {
-      "version": "0.1.18",
-      "from": "https://registry.npmjs.org/js.js/-/js.js-0.1.18.tgz",
-      "resolved": "https://registry.npmjs.org/js.js/-/js.js-0.1.18.tgz",
+      "version": "0.1.19",
+      "from": "js.js@0.1.19",
+      "resolved": "https://registry.npmjs.org/js.js/-/js.js-0.1.19.tgz",
       "dependencies": {
         "socket.io": {
           "version": "0.9.17",
-          "from": "socket.io@~0.9.13",
-          "resolved": "https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz",
+          "from": "socket.io@0.9.x",
           "dependencies": {
             "socket.io-client": {
               "version": "0.9.16",
               "from": "socket.io-client@0.9.16",
-              "resolved": "https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.16.tgz",
               "dependencies": {
                 "uglify-js": {
                   "version": "1.2.5",
-                  "from": "uglify-js@1.2.5",
-                  "resolved": "https://registry.npmjs.org/uglify-js/-/uglify-js-1.2.5.tgz"
+                  "from": "uglify-js@1.2.5"
                 },
                 "ws": {
                   "version": "0.4.31",
                   "from": "ws@0.4.x",
-                  "resolved": "https://registry.npmjs.org/ws/-/ws-0.4.31.tgz",
                   "dependencies": {
                     "commander": {
                       "version": "0.6.1",
-                      "from": "commander@0.6.1",
-                      "resolved": "https://registry.npmjs.org/commander/-/commander-0.6.1.tgz"
+                      "from": "commander@~0.6.1"
                     },
                     "nan": {
                       "version": "0.3.2",
-                      "from": "nan@0.3.2",
-                      "resolved": "https://registry.npmjs.org/nan/-/nan-0.3.2.tgz"
+                      "from": "nan@~0.3.0"
                     },
                     "tinycolor": {
                       "version": "0.0.1",
-                      "from": "tinycolor@0.0.1",
-                      "resolved": "https://registry.npmjs.org/tinycolor/-/tinycolor-0.0.1.tgz"
+                      "from": "tinycolor@0.x"
                     },
                     "options": {
                       "version": "0.0.5",
-                      "from": "options@0.0.5",
-                      "resolved": "https://registry.npmjs.org/options/-/options-0.0.5.tgz"
+                      "from": "options@>=0.0.5"
                     }
                   }
                 },
                 "xmlhttprequest": {
                   "version": "1.4.2",
-                  "from": "xmlhttprequest@1.4.2",
-                  "resolved": "https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.4.2.tgz"
+                  "from": "xmlhttprequest@1.4.2"
                 },
                 "active-x-obfuscator": {
                   "version": "0.0.1",
                   "from": "active-x-obfuscator@0.0.1",
-                  "resolved": "https://registry.npmjs.org/active-x-obfuscator/-/active-x-obfuscator-0.0.1.tgz",
                   "dependencies": {
                     "zeparser": {
                       "version": "0.0.5",
-                      "from": "zeparser@0.0.5",
-                      "resolved": "https://registry.npmjs.org/zeparser/-/zeparser-0.0.5.tgz"
+                      "from": "zeparser@0.0.5"
                     }
                   }
                 }
@@ -70,60 +59,50 @@
             },
             "policyfile": {
               "version": "0.0.4",
-              "from": "policyfile@0.0.4",
-              "resolved": "https://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz"
+              "from": "policyfile@0.0.4"
             },
             "base64id": {
               "version": "0.1.0",
-              "from": "base64id@0.1.0",
-              "resolved": "https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz"
+              "from": "base64id@0.1.0"
             },
             "redis": {
               "version": "0.7.3",
-              "from": "redis@0.7.3",
-              "resolved": "https://registry.npmjs.org/redis/-/redis-0.7.3.tgz"
+              "from": "redis@0.7.3"
             }
           }
         },
         "winston": {
           "version": "0.6.2",
-          "from": "https://registry.npmjs.org/winston/-/winston-0.6.2.tgz",
+          "from": "winston@0.6.2",
           "resolved": "https://registry.npmjs.org/winston/-/winston-0.6.2.tgz",
           "dependencies": {
             "async": {
               "version": "0.1.22",
-              "from": "async@0.1.22",
-              "resolved": "https://registry.npmjs.org/async/-/async-0.1.22.tgz"
+              "from": "async@0.1.x"
             },
             "colors": {
               "version": "0.6.2",
-              "from": "colors@0.6.2",
-              "resolved": "https://registry.npmjs.org/colors/-/colors-0.6.2.tgz"
+              "from": "colors@0.x.x"
             },
             "cycle": {
               "version": "1.0.3",
-              "from": "cycle@1.0.3",
-              "resolved": "https://registry.npmjs.org/cycle/-/cycle-1.0.3.tgz"
+              "from": "cycle@1.0.x"
             },
             "eyes": {
               "version": "0.1.8",
-              "from": "eyes@0.1.8",
-              "resolved": "https://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz"
+              "from": "eyes@0.1.x"
             },
             "pkginfo": {
               "version": "0.2.3",
-              "from": "pkginfo@0.2.3",
-              "resolved": "https://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz"
+              "from": "pkginfo@0.2.x"
             },
             "request": {
               "version": "2.9.203",
-              "from": "request@2.9.203",
-              "resolved": "https://registry.npmjs.org/request/-/request-2.9.203.tgz"
+              "from": "request@2.9.x"
             },
             "stack-trace": {
               "version": "0.0.9",
-              "from": "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.9.tgz",
-              "resolved": "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.9.tgz"
+              "from": "stack-trace@0.0.x"
             }
           }
         }
