@@ -43,6 +43,7 @@ var RESOURCE_PERMISSION_DENIED = "This resource is not available, permission den
 
 var js = new JS();
 js.CONFIG.DOCROOT = './static';
+js.CONFIG.HTTPWS_PORT = 80;
 console.log(js.CONFIG);
 js.create(js.address, js.CONFIG.HTTPWS_PORT);
 js.listenHttpWS();
