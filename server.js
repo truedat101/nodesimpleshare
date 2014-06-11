@@ -42,7 +42,9 @@ var UNAUTHORIZED_USER = "You are not authorized to access this document";
 var RESOURCE_PERMISSION_DENIED = "This resource is not available, permission denied";
 
 var js = new JS();
-js.CONFIG.DOCROOT = './static';
+js.CONFIG.DOCROOT = __dirname + '/static' 
+// js.CONFIG.DOCROOT = 'D:\home\site\wwwroot\static';
+js.CONFIG.HTTPWS_PORT = process.env.PORT || 8000;
 console.log(js.CONFIG);
 js.create(js.address, js.CONFIG.HTTPWS_PORT);
 js.listenHttpWS();
