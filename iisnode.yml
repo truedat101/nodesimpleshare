@@ -98,7 +98,7 @@ logDirectory: iisnode
 
 # debuggingEnabled - controls whether the built-in debugger is available
 
-# XXX debuggingEnabled: true
+debuggingEnabled: true
 
 # debuggerPortRange - range of TCP ports that can be used for communication between the node-inspector debugger and the debugee; iisnode
 # will round robin through this port range for subsequent debugging sessions and pick the next available (free) port to use from the range
