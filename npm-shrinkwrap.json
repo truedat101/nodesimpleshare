@@ -4,12 +4,12 @@
   "dependencies": {
     "js.js": {
       "version": "0.1.18",
-      "from": "js.js@0.1.18",
+      "from": "https://registry.npmjs.org/js.js/-/js.js-0.1.18.tgz",
       "resolved": "https://registry.npmjs.org/js.js/-/js.js-0.1.18.tgz",
       "dependencies": {
         "socket.io": {
           "version": "0.9.17",
-          "from": "socket.io@0.9.x",
+          "from": "socket.io@~0.9.13",
           "resolved": "https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz",
           "dependencies": {
             "socket.io-client": {
@@ -19,27 +19,33 @@
               "dependencies": {
                 "uglify-js": {
                   "version": "1.2.5",
-                  "from": "uglify-js@1.2.5"
+                  "from": "uglify-js@1.2.5",
+                  "resolved": "https://registry.npmjs.org/uglify-js/-/uglify-js-1.2.5.tgz"
                 },
                 "ws": {
                   "version": "0.4.31",
                   "from": "ws@0.4.x",
+                  "resolved": "https://registry.npmjs.org/ws/-/ws-0.4.31.tgz",
                   "dependencies": {
                     "commander": {
                       "version": "0.6.1",
-                      "from": "commander@~0.6.1"
+                      "from": "commander@0.6.1",
+                      "resolved": "https://registry.npmjs.org/commander/-/commander-0.6.1.tgz"
                     },
                     "nan": {
                       "version": "0.3.2",
-                      "from": "nan@~0.3.0"
+                      "from": "nan@0.3.2",
+                      "resolved": "https://registry.npmjs.org/nan/-/nan-0.3.2.tgz"
                     },
                     "tinycolor": {
                       "version": "0.0.1",
-                      "from": "tinycolor@0.x"
+                      "from": "tinycolor@0.0.1",
+                      "resolved": "https://registry.npmjs.org/tinycolor/-/tinycolor-0.0.1.tgz"
                     },
                     "options": {
                       "version": "0.0.5",
-                      "from": "options@>=0.0.5"
+                      "from": "options@0.0.5",
+                      "resolved": "https://registry.npmjs.org/options/-/options-0.0.5.tgz"
                     }
                   }
                 },
@@ -81,36 +87,42 @@
         },
         "winston": {
           "version": "0.6.2",
-          "from": "winston@0.6.2",
+          "from": "https://registry.npmjs.org/winston/-/winston-0.6.2.tgz",
           "resolved": "https://registry.npmjs.org/winston/-/winston-0.6.2.tgz",
           "dependencies": {
             "async": {
               "version": "0.1.22",
-              "from": "async@0.1.x"
+              "from": "async@0.1.22",
+              "resolved": "https://registry.npmjs.org/async/-/async-0.1.22.tgz"
             },
             "colors": {
               "version": "0.6.2",
-              "from": "colors@0.x.x"
+              "from": "colors@0.6.2",
+              "resolved": "https://registry.npmjs.org/colors/-/colors-0.6.2.tgz"
             },
             "cycle": {
               "version": "1.0.3",
-              "from": "cycle@1.0.x"
+              "from": "cycle@1.0.3",
+              "resolved": "https://registry.npmjs.org/cycle/-/cycle-1.0.3.tgz"
             },
             "eyes": {
               "version": "0.1.8",
-              "from": "eyes@0.1.x"
+              "from": "eyes@0.1.8",
+              "resolved": "https://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz"
             },
             "pkginfo": {
               "version": "0.2.3",
-              "from": "pkginfo@0.2.x"
+              "from": "pkginfo@0.2.3",
+              "resolved": "https://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz"
             },
             "request": {
               "version": "2.9.203",
-              "from": "request@2.9.x"
+              "from": "request@2.9.203",
+              "resolved": "https://registry.npmjs.org/request/-/request-2.9.203.tgz"
             },
             "stack-trace": {
               "version": "0.0.9",
-              "from": "stack-trace@0.0.x",
+              "from": "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.9.tgz",
               "resolved": "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.9.tgz"
             }
           }
