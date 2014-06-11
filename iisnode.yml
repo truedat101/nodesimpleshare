@@ -129,6 +129,8 @@ maxTotalLogFileSizeInKB: 1024
 
 maxLogFiles: 20
 
+# While devErrorsEnabled is useful when diagnosing problems during development, enabling it in a production 
+# environment may result in development errors being sent to end users.
 devErrorsEnabled: true
 
 # flushResponse - controls whether each HTTP response body chunk is immediately flushed by iisnode; flushing each body chunk incurs
