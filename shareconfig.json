@@ -17,8 +17,18 @@
 				}
 			}
 	},
-	"schema": 1,
+	"directories": {
+			"sample1": {
+				"description": "This is a sample directory",
+				"abcdefgh": {
+					"description": "Test User 1",
+					"expires": "-1",
+					"triggers": null
+				}
+			}
+    },
+	"schema": 2,
 	"version": 1,
 	"lastmodifiedby": "truedat101",
-	"count": 2
+	"count": 3
 }

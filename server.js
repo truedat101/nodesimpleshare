@@ -42,7 +42,7 @@ var UNAUTHORIZED_USER = "You are not authorized to access this document";
 var RESOURCE_PERMISSION_DENIED = "This resource is not available, permission denied";
 
 var js = new JS();
-js.CONFIG.DOCROOT = __dirname + '/static' 
+js.CONFIG.DOCROOT = __dirname + '/static'
 // js.CONFIG.DOCROOT = 'D:\home\site\wwwroot\static';
 js.CONFIG.HTTPWS_PORT = process.env.PORT || 8000;
 console.log(js.CONFIG);
@@ -94,6 +94,25 @@ js.getterer("/share/[\\w\\.\\-]+", function(req, res) {
         res.end();
       } else {
         console.log("Lookup of acl user: " + apikey + " succeeded for " + adoc);
+        console.log("Getting share under path: " + url.parse(assetpath).pathname);
+        return js.staticHandler("." + url.parse(assetpath).pathname)(req, res);
+      }
+    } else if (adoc in shareconfig.directories) {
+      console.log('Directory lookup succeeded for ' + JSON.stringify(shareconfig.directories[adoc]));
+      // Is the api key in our ACL?
+      if ((apikey in shareconfig.directories[adoc]) !== true) {
+        console.log(UNAUTHORIZED_USER);
+        res.writeHead(403, {  'Content-Type': 'text/plain',
+                          'Content-Length': UNAUTHORIZED_USER.length
+                  });
+        res.write(UNAUTHORIZED_USER);
+        res.end();
+      } else {
+        assetpath = adoc + "/index.html";
+        console.log("assetpath = " + assetpath);
+        console.log("Lookup of acl user: " + apikey + " succeeded for " + adoc);
+        console.log("Getting share under path: " + url.parse(assetpath).pathname);
+        return js.staticHandler(url.parse(assetpath).pathname)(req, res);
       }
     } else {
       console.log("failed to lookup " + adoc + " in ");
@@ -105,8 +124,6 @@ js.getterer("/share/[\\w\\.\\-]+", function(req, res) {
       res.write(RESOURCE_PERMISSION_DENIED);
       res.end();
     }
-    console.log("Getting share under path: " + url.parse(assetpath).pathname);
-    return js.staticHandler("." + url.parse(assetpath).pathname)(req, res);
   }
 });
 
