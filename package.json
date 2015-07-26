@@ -7,7 +7,7 @@
         "Fish - RIP",
         "Benny - RIP",
         "Pikachu"],
-    "version": "0.2.4",
+    "version": "0.2.5",
     "private": false,
     "scripts": {
       "start": "node server.js"
